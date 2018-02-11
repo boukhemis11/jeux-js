@@ -1,0 +1,28 @@
+.carree {
+
+    width: 200px;
+    height: 200px;
+}
+
+.carres {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    line-height: 30px;
+    margin: auto;
+}
+
+.carres > div {
+    flex: 1;
+    height: auto;
+    margin: 5px;
+}
+
+.carres > div:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
